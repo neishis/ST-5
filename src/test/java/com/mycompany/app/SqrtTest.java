@@ -32,9 +32,9 @@ public class SqrtTest
     }
 
     @Test
-    public void testCalc25() {
-        Sqrt sqrt = new Sqrt(25.0);
-        assertEquals(5.0, sqrt.calc(), tolerance);
+    public void testCalc36() {
+        Sqrt sqrt = new Sqrt(36.0);
+        assertEquals(6.0, sqrt.calc(), tolerance);
     }
 
     @Test
